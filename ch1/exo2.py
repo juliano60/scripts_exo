@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
+import math
 
 ## compute the circle circumference
 ## from a supplied input
 
-PI = 3.141592654
-
 def circumference(radius):
-    return 2*radius*PI
+    return 2*radius*math.pi
 
 radius = input("Enter radius: ")
 
